@@ -13,5 +13,7 @@ class mytest(unittest.TestCase):
   #具体的测试用例，一定要以test开头 
   def testsum(self): 
     self.assertEqual(self.tclass.sum(1, 2), 3) 
+  def testsum_1(self): 
+    self.assertEqual(self.tclass.sum(1, 2), 4) 
 if __name__ =='__main__': 
   unittest.main()
