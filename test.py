@@ -14,6 +14,6 @@ class mytest(unittest.TestCase):
   def testsum(self): 
     self.assertEqual(self.tclass.sum(1, 2), 3) 
   def testsum_1(self): 
-    self.assertEqual(self.tclass.sum(1, 2), 4) 
+    self.assertEqual(self.tclass.sum(1, 2), 3) 
 if __name__ =='__main__': 
   unittest.main()
